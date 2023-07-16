@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+  </head><body>
+
+	<div class="container-fluid">
+		<div class="containerxs">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between	">
+				<div class= "col-2 navbar-brand py-3 text-center text-primary">
+					<i class="bi bi-person-circle bi"></i>
+					<span class="d-none d-lg-inline" style="font-size: 20px;">
+						Welcome
+					</span>
+				</div>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse col-7" id="navbarNav">
+				  <ul class="navbar-nav">
+					<li class="nav-item active">
+					  <a class="nav-link d-lg-inline" href="#"> <span class="sr-only"> Home </span></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link d-lg-inline" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link  d-lg-inline" href="#">Pricing</a>
+					</li>
+				  </ul>
+				</div>
+
+				<div class= "col-3 navbar-brand text-center text-primary">
+					<a class="btn btn btn-outline-danger d-none d-lg-inline .icon-link	link-hover" href="#">
+						Log Out
+					</a>
+					<i class="bi bi-lg bi-box-arrow-right"></i>
+
+				</div>
+			  </nav>
+		</div>
+		
+		<div class="row">
+			<div class="d-flex col-5 bg-light pr-3">
+				<div class="">
+						<img src="https://th.bing.com/th/id/OIP.nRt539ti8ILl_PfSS7oaygHaHQ?pid=ImgDet&rs=1" 
+						class="justify-content-center rounded w-50 align-center">
+					<div class="align-center">
+						<input type="email" class="form-control" id="floatingInputDisabled" placeholder="name@example.com" disabled>
+						<label for="floatingInputDisabled">Email address</label>
+					  </div>
+					  <div class="form-floating mb-3">
+						<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextareaDisabled" disabled></textarea>
+						<label for="floatingTextareaDisabled">Comments</label>
+					  </div>
+					  <div class="form-floating mb-3">
+						<textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2Disabled" style="height: 100px" disabled></textarea>
+						<label for="floatingTextarea2Disabled">Comments</label>
+					  </div>
+					  <div class="form-floating">
+						<select class="form-select" id="floatingSelectDisabled" aria-label="Floating label disabled select example" disabled>
+						  <option selected>Open this select menu</option>
+						  <option value="1">One</option>
+						  <option value="2">Two</option>
+						  <option value="3">Three</option>
+						</select>
+						<label for="floatingSelectDisabled">Works with selects</label>
+					  </div>
+				</div>
+			</div>
+			<!-- <nav class="col-2 bg-light pr-3">
+				
+				<div class="list-group text-center text-lg-left">
+					<span class="list-group-item disabled d-none d-lg-block">
+						<small>CONTROLS</small>
+					</span>
+					<a href="#" class="list-group-item list-group-item-action active">
+						<i class="fas fa-home"></i>
+						<span class="d-none d-lg-inline">Dashboard</span>
+					</a>
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="fas fa-flag"></i>
+						<span class="d-none d-lg-inline">Reports</span>
+					</a>
+				</div>
+
+				<div class="list-group mt-4 text-center text-lg-left">
+					<span class="list-group-item disabled d-none d-lg-block">
+						<small>ACTIONS</small>
+					</span>
+
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="fas fa-user"></i>
+						<span class="d-none d-lg-inline">New User</span>
+					</a>
+
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="fas fa-edit"></i>
+						<span class="d-none d-lg-inline">Update Data</span>
+					</a>
+
+					<a href="#" class="list-group-item list-group-item-action">
+						<i class="far fa-calendar-alt"></i>
+						<span class="d-none d-lg-inline">Add Events</span>
+					</a>
+				</div>
+			</nav> -->
+
+			<main class="col-7" style="background-color: rgb(108, 108, 200);;">
+				<div class="container p-4">
+					<div class="row">
+						<h2 class="h6 text-white-50">Upcoming Appoinments</h2>
+						<div class="col-sm">
+							<div class="card">
+								<div class="card-body">
+									<h4 class="card-title">Dentist</h4>
+									<div class="">
+									<button class="btn btn-primary btn-sm btn-block .icon-link link-hover" href="#">
+										Confirm
+									</button>
+									
+									<button class="btn btn-danger btn-sm btn-block .icon-link link-hover" href="#">
+										Cancel
+									</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="card">
+								<div class="card-body">
+									<h4 class="card-title">Gynecologist</h4>
+									<div class="">
+									<button class="btn btn-primary btn-sm btn-block .icon-link link-hover" href="#">
+										Confirm
+									</button>
+									<button class="btn btn-danger btn-sm btn-block .icon-link link-hover" href="#">
+										Cancel
+									</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col">
+							<div class="card">
+								<div class="card-body">
+									<h4 class="card-title">Gastroenterologist</h4>
+									<div class="">
+									<button class="btn btn-primary btn-sm btn-block .icon-link link-hover" href="#">
+										Confirm
+									</button>
+									<button class="btn btn-danger btn-sm btn-block .icon-link link-hover" href="#">
+										Cancel
+									</button>
+									</div>
+								</div>
+						</div>
+					</div>
+
+					<div class="row mt-4 flex-column flex-lg-row">
+						<div class="col-8">
+							<h2 class="h5 text-white-50">List of hospitals you've enrolled for</h2>
+							<table class="table table-success table-striped-columns">
+								<thead>
+								  <tr>
+									<th scope="col">#</th>
+									<th scope="col">First</th>
+									<th scope="col">Last</th>
+									<th scope="col">Handle</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								  </tr>
+								  <tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								  </tr>
+								  <tr>
+									<th scope="row">3</th>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								  </tr>
+								</tbody>
+							  </table>
+						</div>
+
+						<div class="col-3">
+							<h2 class="h6 text-white-50">Lab Reports</h2>
+							<table class="table table-success table-striped-columns">
+								<thead>
+								  <tr>
+									<th scope="col">#</th>
+									<th scope="col">First</th>
+									<th scope="col">Last</th>
+									<th scope="col">Handle</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								  </tr>
+								  <tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								  </tr>
+								  <tr>
+									<th scope="row">3</th>
+									<td colspan="2">Larry the Bird</td>
+									<td>@twitter</td>
+								  </tr>
+								</tbody>
+							  </table>
+							<!-- <div class="card mb-3" style="height: 280px">
+								<div class="card-body">
+									<div class="text-right">
+										<button class="btn btn-sm btn-outline-secondary">
+											<i class="fas fa-search"></i>
+										</button>
+										<button class="btn btn-sm btn-outline-secondary">
+											<i class="fas fa-sort-amount-up"></i>
+										</button>
+										<button class="btn btn-sm btn-outline-secondary">
+											<i class="fas fa-filter"></i>
+										</button>
+									</div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+				</div>
+			</main> 
+		</div>
+	</div>
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/
+bootstrap.bundle.min.js"></script>
+</body>
