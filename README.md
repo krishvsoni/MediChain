@@ -10,7 +10,7 @@ We are  participating in the Parul Let's Hack (India Tour) event. Check out the 
 
 ![Parul Let's Hack](https://parulletshack.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fc3ceca77ddae4deeb484b21b763b2dee%2Fassets%2Ffavicon%2F707.png&w=1440&q=75)
 
-# Contributors 💻
+# TEAM: DEBUG THUGS 💻
 - VED - [GitHub](https://github.com/turntved)
 - KRISH - [GitHub](https://github.com/krishvsoni)
 - THURA - [GitHub](https://github.com/codes71)
