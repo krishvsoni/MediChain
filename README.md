@@ -1,4 +1,4 @@
-#medichain
+# MediChain
 
 welcome to medichain we are taking one step forward in healthcare by introducing blockchain in health care it basically creates unique ID of the patients which store all basic information of patient like name,age,date of birth,address,medical history,diagnosis and treatment details,prescription or medication etc. 
 
